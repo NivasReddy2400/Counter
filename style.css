@@ -1,0 +1,62 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Fira sans',sans-serif;
+    /* background-color: #315f9f; */
+    color: #fcfdfe;
+    background-color: #1f2937;
+}
+
+.watch{
+    text-align: center;
+    background-color: #111827;
+    width:100%;
+    max-width: 700px;
+    margin:4rem auto;
+    padding:1rem 2rem;
+    border-radius: 1rem;
+}
+
+.time{
+    font-size:4rem;
+    font-weight: 300;
+    padding: 0.6rem;
+    margin: 0.4rem 2rem;
+}
+
+.day{
+    font-size: 2rem;
+}
+
+.controls{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.controls button{
+    border: none;
+    background: none;
+    outline:none;
+    background-color: crimson;
+    padding: 0.5rem 1rem;
+    width:70px;
+    max-width: 100px;
+    margin:0.2rem;
+    border-radius: 0.4rem; 
+    cursor: pointer;   
+}
+
+button:hover{
+    opacity: 0.6;
+    transition: ease-out 1s;
+}
+
+button:active{
+    scale:1.05;
+    transition: ease-out 1s;
+}
