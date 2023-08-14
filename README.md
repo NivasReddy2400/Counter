@@ -1,4 +1,4 @@
-#Counter
+# Counter
 -Vanilla Js
 -CSS
 -NO Frameworks
