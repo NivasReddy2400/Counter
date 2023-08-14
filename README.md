@@ -1,4 +1,4 @@
-# ClockWatch
+#Counter
 -Vanilla Js
 -CSS
 -NO Frameworks
