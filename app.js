@@ -5,7 +5,7 @@ const stopbtn  = document.getElementById('stop')
 const resetbtn = document.getElementById('reset')
 
 
-let seconds = 86396;
+let seconds = 0;
 let day = 0;
 let interval = null;
 
